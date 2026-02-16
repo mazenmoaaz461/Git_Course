@@ -1,0 +1,36 @@
+--For creating new project through github --> create new repository, after creation you 
+--can commit any changes from the github itself, when you click on any file and modify
+--in it , after modification you will find commit downward hit it
+
+--now git clone the project url to the directory you want in your device through cmd
+
+git status --> to know which files are new in your project or updated in your project
+
+git add file.txt   --> to add a specific file to your repository
+
+git reset head file.txt --> to remove a file from your repo if you git added it accidently
+
+git add . --> to add all your changes to the repository
+
+--To fix your configurations
+git config --global user.name "mazenmoaaz461"
+
+git config --global user.email "mazenmoaaz461@gmail.com"
+
+git commit -m "Created the main project Structure" --> to commit the changes to the repo
+
+git status -->also to know the commits you need to push
+
+git add Zero.xlsx --> before pushing you have added a new file that you need to push also, then commit again
+
+git commit -m "modified and added new file (Zero.xlsx )" --> to commit the changes you made even if you have a commit before that wasn't pushed yet
+
+git branch --> to know the branches exist in your local
+
+git remote -v --> get you the remote name that you will push or send on it
+
+git push origin main
+
+
+
+
